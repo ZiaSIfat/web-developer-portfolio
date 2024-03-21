@@ -2,14 +2,20 @@ body{
      
         font-family: "Open Sans", sans-serif;      
 }
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
+    margin: 0 150px;   
 }
 .nav-title{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     /* text-align: center; */
 }
@@ -35,8 +41,37 @@ nav li{
     background-color: #FD6E0A;
     border: 0;
     color: white;
-    padding: 15px 35px;
+    padding: 15px 20px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+   justify-content: space-between;
+}
+
+.title{
+    font-size: 30px;
+}
+.main-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-img{
+    width: 500px;
+    margin-bottom:0px ;
+}
+.banner-container{
+    max-width: 300px;
+    
+}
+.btn-div{
+    display: flex;
+}
+.btn-c{
+    margin-left: 10px;
 }

@@ -136,4 +136,20 @@ footer{
 }
 .footer-content{
     padding: 130px 130px;
+    display: flex;
+    
+}
+.form{
+display: flex;
+flex-direction: column;
+}
+.input{
+    width: 360px;
+    border: none;
+    margin: 10px 0;
+    padding: 15px;
+}
+.footer-section{
+    max-width: 560px;
+    margin-right: 40px;
 }
